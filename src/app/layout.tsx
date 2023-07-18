@@ -20,3 +20,28 @@ export default function RootLayout({
     </html>
   )
 }
+
+// for(let i=0;i<=primordial;i++){
+//   if(i<=primordial/3 && isDivisible(i)){
+//     l1.push(i)
+//     count1++
+//   }
+//   else if(i==primordial/2 && isDivisible(i)){
+//     l2.push(i)
+//     l3.push(i)
+//     count2++
+//     count3++
+//   }
+//   else if(i>primordial/3 &&i<=primordial/2 && isDivisible(i)){
+//     l2.push(i)
+//     count2++
+//   }
+//   else if(i>primordial/2 && i<(primordial/3)*2 && isDivisible(i)){
+//     l3.push(i)
+//     count3++
+//   }
+//   else if(isDivisible(i)){
+//     l4.push(i)
+//     count4++
+//   }
+// }

@@ -78,7 +78,9 @@
   padding: 0;
   margin: 0;
 }
-
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
 html,
 body {
   max-width: 100vw;
