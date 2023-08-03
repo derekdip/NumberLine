@@ -81,6 +81,9 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
+      <h2>
+        <u><a  href="https://github.com/derekdip/NumberLine">Github</a></u>
+      </h2>
       <div>
         <label htmlFor="primes">Choose prime to produce number line up to its primorial '2*3*5...p':</label>
         <select name="primes" id="prime" onChange={(e)=>{setPrime(parseInt(e.target.value))}}>
